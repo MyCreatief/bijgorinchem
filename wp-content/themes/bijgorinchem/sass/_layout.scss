@@ -1,0 +1,121 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 350px;
+  font-size: 16px;
+  //background: image-url('beekeeper-bg-hive-pattern.png') repeat;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  min-height: 350px;
+}
+
+body > .container {
+  padding: 0 $space-m 200px;
+
+  &.quick-tools {
+    padding-bottom: 0;
+
+    .quick-block {
+      margin: 60px 0px;
+    }
+  }
+}
+
+.bg-blue {
+  background: #639caf;
+  color: white;
+  text-align: center;
+
+  h3 {
+    font-size: 22px;
+  }
+}
+
+.banner {
+  width: 100%;
+  height: 500px;
+  background: lightblue;
+  padding: 0;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.block {
+  width: 100%;
+  //padding: $space-m;
+
+  &.block-color {
+    background: lightsalmon;
+    //min-height: 200px;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.margin-b-s {
+  margin-bottom: 10px;
+}
+
+.margin-b-m {
+  margin-bottom: 15px;
+}
+
+.margin-b-l {
+  margin-bottom: 25px;
+}
+
+.margin-b-xl {
+  margin-bottom: 60px;
+}
+
+.padding-b-xs {
+  padding-bottom: 5px;
+}
+
+.padding-b-s {
+  padding-bottom: 10px;
+}
+
+.padding-b-m {
+  padding-bottom: 15px;
+}
+
+.padding-b-l {
+  padding-bottom: 25px;
+}
+
+.padding-b-xl {
+  padding-bottom: 60px;
+}
+
+.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display:none;
+}
+
+.social-container,
+.footer-second {
+  background: darkslategrey;
+  color: #ffffff;
+  margin-top: $space-l;
+  padding: $space-s 0;
+}
+
+.text-center{
+  text-align: left;
+}

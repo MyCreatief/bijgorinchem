@@ -1,0 +1,110 @@
+.quick-contact {
+  text-align: right;
+  background: rgba($c-accent, 0.6);
+
+  a,i {
+    color: $c-white;
+  }
+
+  a {
+    padding: 5px 0 5px $space-m;
+    float: right;
+    display: inline-block;
+  }
+}
+
+#navbar a.home-link {
+  float: left !important;
+  text-align: left;
+  color:red;
+  width: 66px !important;
+  height: 78px;
+  text-indent: -99999px;
+  margin: 5px 0;
+  display: block;
+  background-size: contain;
+  background-image: url("http://www.bijgorinchem.nl/wordpress/wp-content/uploads/bnv-logo.png");
+}
+
+.navbar-default {
+  background: rgba(white, 0.9);
+
+  .menu-item-has-children {
+    &:after {
+      color: #777;
+      display: none;
+      font-family: "Font Awesome 5 Solid";
+      content: "\f0dd";
+    }
+  }
+
+  .navbar-brand {
+    padding-top: 25px;
+  }
+
+  .icon-angle-down {
+    width: $space-m;
+    height: $space-m;
+    margin: 0px 0 0px $space-xs;
+    padding-top: $space-xs;
+  }
+
+  ul > li {
+    position: relative;
+    padding: 0 15px;
+
+    > a {
+      padding: 34px 0;
+      color: #777;
+      display: inline-block;
+    }
+
+    > ul {
+      display: none;
+      min-width: 230px;
+      padding-left: 0;
+
+      > li {
+        list-style: none;
+        border-bottom: 1px solid #e7e7e7;
+        padding: 5px 15px;
+
+        a {
+          color: #777;
+          width: 100%;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          display: inline-block;
+        }
+
+        &:hover {
+          > ul {
+            left: 230px;
+            top: 0;
+            border-left: 1px solid #e7e7e7
+          }
+        }
+
+        &.menu-item-has-children {
+          &:after {
+            font-family: FontAwesome;
+            content: "\f0da";
+            position: absolute;
+            right: 5px;
+            top: 10px;
+          }
+        }
+      }
+    }
+
+    &:hover {
+      > ul {
+        background: rgba(white, 0.9);
+        position: absolute;
+        left: 0;
+        top: 70px;
+        display: block;
+      }
+    }
+  }
+}

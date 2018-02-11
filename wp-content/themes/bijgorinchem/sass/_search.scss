@@ -1,0 +1,85 @@
+.search-container {
+  margin-top: 12px;
+}
+
+.search-page {
+  article {
+    margin-bottom: $space-l;
+
+    h2 {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      display: block;
+      float: left;
+    }
+  }
+}
+
+.search-title{
+  font-weight:normal;
+  color:#1a0dab;
+  font-size:18px;
+  float: left;
+}
+.search-link{
+  color:#008443;
+}
+
+.search-link a{
+  color:#008443;
+  text-decoration:none
+}
+
+
+.search-para{
+  display:block;
+  color:#6a6a6a;
+}
+
+.btn-group i{ cursor:pointer; text-decoration:none}
+
+.search-container {
+  .enjoy-css {
+    width: 100%;
+    height: 45px;
+    cursor: pointer;
+    margin: 0 auto;
+    border: .5px solid rgb(232, 238, 241);
+    font: normal 14px/28px "Advent Pro", Helvetica, sans-serif;
+    color: rgb(119, 126, 128);
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    letter-spacing: 1px;
+    background: rgba(0,0,0,0);
+  }
+
+  /* enable absolute positioning */
+  .enjoy-cssx {
+    width: 100%;
+    height: 45px;
+    font: normal 14px/28px "Advent Pro", Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+  }
+
+  .inner-addon {
+    position: relative;
+  }
+
+  /* style icon */
+  .inner-addon .fa-search {
+    position: absolute;
+    pointer-events: none;
+    top: $space-m;
+    right: $space-m;
+  }
+
+  /* align icon */
+  .left-addon .fa  { left:  0px;}
+  .right-addon .fa { right: 0px;}
+
+  /* add padding  */
+  .left-addon input  { padding-left:  30px; }
+  .right-addon input { padding-right: 30px; }
+}

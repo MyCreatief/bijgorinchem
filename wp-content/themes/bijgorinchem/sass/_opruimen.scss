@@ -1,0 +1,155 @@
+  .navbar-brand {
+    display: none;
+  }
+  .brake {
+    width: 100%;
+    clear: both;
+    display: inline-block;
+  }
+
+  .alignleft {
+    float: left;
+    margin: 5px 15px 5px 0;
+    display: inline-block;
+  }
+
+  .sidebar section ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+  }
+
+  .sidebar section ul li span {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 10px;
+  }
+
+  .attachment-twentyseventeen-featured-image {
+    display: none;
+  }
+
+  #TB_closeWindow {
+
+    padding: 1px 25px 10px 0;
+  }
+
+  #TB_caption {
+    padding: 0 0 0 15px;
+  }
+
+  .pagination {
+    display: none;
+  }
+
+  .slideshowlink {
+    display: none;
+  }
+
+
+
+  #TB_window {
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #333333;
+  }
+
+  #TB_secondLine {
+    font: 14px Arial, Helvetica, sans-serif;
+    color:#1d1d1d;
+  }
+
+  .screen-reader-text {
+    display: none;
+  }
+
+  .entry-content {
+    margin-bottom:60px;
+  }
+
+  #TB_window a:link {color: #1d1d1d;}
+  #TB_window a:visited {color: #1d1d1d;}
+  #TB_window a:hover {color: #000;
+    text-decoration: none;
+  }
+  #TB_window a:active {color: #1d1d1d;}
+  #TB_window a:focus{color: #1d1d1d;}
+
+  #TB_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+  }
+
+
+
+  #TB_window img#TB_Image {
+    display:block;
+    margin: 15px 0 0 15px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #666;
+    border-left: 1px solid #666;
+  }
+
+  #TB_caption{
+    height:25px;
+    padding:7px 30px 10px 25px;
+    float:left;
+  }
+
+  #TB_closeWindow{
+    height:25px;
+    padding:11px 25px 10px 0;
+    float:right;
+  }
+
+  #TB_closeAjaxWindow{
+    padding:7px 10px 5px 0;
+    margin-bottom:1px;
+    text-align:right;
+    float:right;
+  }
+
+  #TB_ajaxWindowTitle{
+    float:left;
+    padding:7px 0 5px 10px;
+    margin-bottom:1px;
+  }
+
+  #TB_title{
+    background-color:#e8e8e8;
+    height:27px;
+  }
+
+  .tb-close-icon {
+    display: block;
+    color: #666;
+    text-align: center;
+    line-height: 29px;
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: -12px;
+    right: 0;
+  }
+
+  button .screen-reader-text{
+    display: none;
+  }
+
+  .screen-reader-text {
+    text-indent: -9999px;
+    color: #fff;
+  }
+
+  .screen-reader-text:before {
+    content: "\f158";
+    font: normal 20px/29px dashicons;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #000;
+  }
